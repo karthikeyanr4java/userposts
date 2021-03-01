@@ -1,0 +1,11 @@
+<div class="container col-sm-4">
+    <div class="form-group">
+        <label for="usr">Username:</label>
+        <input type="text" [(ngModel)]="username" class="form-control" id="usr" placeholder="Enter Username">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" [(ngModel)]="password" class="form-control" id="pwd" placeholder="Enter Password">
+    </div>
+    <input type="button" (click)="login()" class="btn btn-info" value="Login">
+</div>

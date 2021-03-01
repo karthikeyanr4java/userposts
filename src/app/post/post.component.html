@@ -1,0 +1,7 @@
+<div class="container col-sm-4">
+    <div class="form-group">
+        <label for="usr">Post:</label>
+        <input type="text" [(ngModel)]="post.message" class="form-control" id="post" placeholder="post">
+    </div>
+    <input type="button" (click)="publish()" class="btn btn-info" value="Publish">
+</div>
